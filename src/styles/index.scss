@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Open+Sans:wght@300&display=swap");
 
 :root {
   /* bg color nav*/
@@ -65,6 +66,40 @@ body {
         color: var(--clr-font-secondary);
         border-bottom: 4px solid var(--clr-font-secondary);
       }
+    }
+  }
+}
+
+// Main
+main {
+  background-color: #33384a;
+  -webkit-clip-path: ellipse(51% 89% at 50% 05%);
+  clip-path: ellipse(51% 95% at 50% 05%);
+}
+
+// Header
+.header {
+  color: var(--clr-font-1);
+
+  &-content {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+
+    h1 {
+      font-weight: 300;
+      letter-spacing: 0.125em;
+      line-height: 1.25;
+      font-style: normal;
+      font-size: 8rem;
+      margin: 3rem 0;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.1rem;
+      letter-spacing: 0.15em;
     }
   }
 }
