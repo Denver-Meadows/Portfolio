@@ -6,6 +6,8 @@
   --clr-primary-1: #525e65;
   /* primary background */
   --clr-primary-2: #222733;
+  /* secondary background */
+  --clr-secondary-1: #33384a;
   /* primary font color */
   --clr-font-1: #dbe8d4;
   /* secondary font background */
@@ -51,6 +53,7 @@ body {
   color: var(--clr-font-1);
   display: flex;
   justify-content: space-around;
+  z-index: 1;
 
   &-list {
     display: flex;
@@ -70,16 +73,19 @@ body {
   }
 }
 
-// Main
-main {
-  background-color: #33384a;
-  -webkit-clip-path: ellipse(51% 89% at 50% 05%);
-  clip-path: ellipse(51% 95% at 50% 05%);
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 // Header
 .header {
   color: var(--clr-font-1);
+  background-color: var(--clr-secondary-1);
+  padding-top: 0.2rem;
+  -webkit-clip-path: ellipse(51% 89% at 50% 05%);
+  clip-path: ellipse(51% 95% at 50% 05%);
 
   &-content {
     font-family: "Josefin Sans", sans-serif;
@@ -102,6 +108,15 @@ main {
       letter-spacing: 0.15em;
     }
   }
+}
+
+// BG-Video
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.05;
 }
 
 // body {

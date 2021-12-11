@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
+    <nav className="nav sticky">
       <ul className="nav-list">
         {/* turn to anchor tags */}
         <li className="nav-list-link">Home</li>
