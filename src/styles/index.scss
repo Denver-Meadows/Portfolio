@@ -1,1 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
+:root {
+  /* bg color nav*/
+  --clr-primary-1: #525e65;
+  /* primary background */
+  --clr-primary-2: #222733;
+  /* primary font color */
+  --clr-font-1: #dbe8d4;
+  /* secondary font background */
+  --clr-font-secondary: #73cca8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // set font-size to 10px vs 16px
+}
+// @media (max-width: 75em) {
+//   html {
+//     font-size: 56.25%;
+//   }
+// }
+// @media (max-width: 56.25em) {
+//   html {
+//     font-size: 50%;
+//   }
+// }
+// @media (min-width: 112.5em) {
+//   html {
+//     font-size: 75%;
+//   }
+// }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--clr-primary-2);
+}
+
+// Navbar
+.nav {
+  background-color: var(--clr-primary-1);
+  color: var(--clr-font-1);
+  display: flex;
+  justify-content: space-around;
+
+  &-list {
+    display: flex;
+    list-style: none;
+
+    &-link {
+      cursor: pointer;
+      padding: 1.5rem 1rem 1rem 1rem;
+      margin: 0 1rem;
+      border-bottom: 4px solid var(--clr-primary-1);
+
+      &:hover {
+        color: var(--clr-font-secondary);
+        border-bottom: 4px solid var(--clr-font-secondary);
+      }
+    }
+  }
+}
+
+// body {
+//   box-sizing: border-box;
+//   // Change box model so that the borders and paddings are no longer added
+//   padding: 3rem;
+// }
+// @media (max-width: 56.25em) {
+//   body {
+//     padding: 0;
+//   }
+// }
