@@ -5,11 +5,11 @@ import IntroInfo from "../components/IntroInfo";
 
 const Home = () => {
   return (
-    <main>
+    <div className="home-header-content">
       <Header />
-      <BGvideo />
+      {/* <BGvideo /> */}
       <IntroInfo />
-    </main>
+    </div>
   );
 };
 

@@ -129,19 +129,10 @@ body {
   align-content: space-around;
   text-align: left;
   padding-top: 5rem;
-  // padding: 5rem;
   padding: 2rem;
   margin: 8rem 20%;
   color: var(--clr-font-1);
   font-size: 4rem;
-
-  // &-info-1 {
-  //   text-align: left;
-  // }
-
-  // &-info-2 {
-  //   text-align: center;
-  // }
 }
 
 // Buttons
@@ -175,6 +166,10 @@ body {
 
 .intro-btn {
   margin-top: 10rem;
+}
+
+.home-header-content {
+  height: 80%;
 }
 
 // body {
