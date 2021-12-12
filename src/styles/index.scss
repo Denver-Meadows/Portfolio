@@ -122,6 +122,61 @@ body {
   opacity: 0.05;
 }
 
+// Intro
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: left;
+  padding-top: 5rem;
+  // padding: 5rem;
+  padding: 2rem;
+  margin: 8rem 20%;
+  color: var(--clr-font-1);
+  font-size: 4rem;
+
+  // &-info-1 {
+  //   text-align: left;
+  // }
+
+  // &-info-2 {
+  //   text-align: center;
+  // }
+}
+
+// Buttons
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  background-color: var(--clr-font-1);
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem var(--clr-secondary-1);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem var(--clr-secondary-1);
+}
+
+.intro-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-btn {
+  margin-top: 10rem;
+}
+
 // body {
 //   box-sizing: border-box;
 //   // Change box model so that the borders and paddings are no longer added
