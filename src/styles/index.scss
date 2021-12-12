@@ -74,14 +74,6 @@ body {
   }
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-Link:visited {
-  text-decoration: none;
-}
-
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -95,6 +87,8 @@ Link:visited {
   padding-top: 0.2rem;
   -webkit-clip-path: ellipse(51% 89% at 50% 05%);
   clip-path: ellipse(51% 95% at 50% 05%);
+  padding-top: 6rem;
+  padding-bottom: 1rem;
 
   &-content {
     font-family: "Josefin Sans", sans-serif;
@@ -104,10 +98,10 @@ Link:visited {
 
     h1 {
       font-weight: 300;
-      letter-spacing: 0.125em;
+      letter-spacing: 0.15em;
       line-height: 1.25;
       font-style: normal;
-      font-size: 8rem;
+      font-size: 9rem;
       margin: 3rem 0;
     }
 
