@@ -58,6 +58,7 @@ body {
   &-list {
     display: flex;
     list-style: none;
+    text-decoration: none;
 
     &-link {
       cursor: pointer;
@@ -71,6 +72,14 @@ body {
       }
     }
   }
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+Link:visited {
+  text-decoration: none;
 }
 
 .sticky {

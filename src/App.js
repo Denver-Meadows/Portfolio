@@ -1,16 +1,21 @@
-// import Switch from "react-router-dom";
-// import Route from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import BGvideo from "./components/BGvideo";
+import Home from "./pages/Home";
+import React from "react";
 
 function App() {
   return (
-    <main>
+    <div>
       <Navbar />
-      <Header />
-      <BGvideo />
-    </main>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="*">
+          <h1>Wrong Page</h1>
+        </Route>
+      </Switch>
+    </div>
   );
 }
 
