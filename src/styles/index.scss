@@ -25,21 +25,21 @@
 html {
   font-size: 62.5%; // set font-size to 10px vs 16px
 }
-// @media (max-width: 75em) {
-//   html {
-//     font-size: 56.25%;
-//   }
-// }
-// @media (max-width: 56.25em) {
-//   html {
-//     font-size: 50%;
-//   }
-// }
-// @media (min-width: 112.5em) {
-//   html {
-//     font-size: 75%;
-//   }
-// }
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 70%;
+  }
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -130,7 +130,7 @@ body {
   text-align: left;
   padding-top: 5rem;
   padding: 2rem;
-  margin: 8rem 20%;
+  margin: 7% 20%;
   color: var(--clr-font-1);
   font-size: 4rem;
 }
@@ -166,10 +166,6 @@ body {
 
 .intro-btn {
   margin-top: 10rem;
-}
-
-.home-header-content {
-  height: 80%;
 }
 
 // body {
