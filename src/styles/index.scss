@@ -168,6 +168,42 @@ body {
   margin-top: 10rem;
 }
 
+// Projects
+.projects {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  &-header {
+    color: var(--clr-font-1);
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 2rem 3rem;
+    font-weight: 700;
+    margin: 2rem;
+
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 40%;
+    //   height: 3px;
+    //   width: 20%;
+    //   border-bottom: 2px solid magenta;
+    // }
+  }
+}
+
+.underline {
+  background-color: var(--clr-font-1);
+  height: 3px;
+  width: 60%;
+  border-radius: 5px;
+  opacity: 50%;
+  margin: 0 auto;
+}
+
 // body {
 //   box-sizing: border-box;
 //   // Change box model so that the borders and paddings are no longer added
