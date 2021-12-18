@@ -195,6 +195,36 @@ body {
   }
 }
 
+.single-project {
+  color: var(--clr-font-1);
+  margin: 2rem 10%;
+
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid var(--clr-font-1);
+    padding: 3rem 0;
+
+    &-image {
+      height: 55rem;
+      width: 80rem;
+      border-radius: 10px;
+    }
+
+    &-details {
+      padding: 2rem 5rem;
+      // min-width: auto;
+
+      h2 {
+        margin-bottom: 3rem;
+        font-weight: 700;
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
 .underline {
   background-color: var(--clr-font-1);
   height: 3px;

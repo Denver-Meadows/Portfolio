@@ -1,4 +1,5 @@
 import React from "react";
+import SingleProject from "./SingleProject";
 
 const Projects = () => {
   // create a project component
@@ -7,7 +8,9 @@ const Projects = () => {
   return (
     <section className="projects">
       <h1 className="projects-header">Projects</h1>
-      <div className="projects-single">Figure this out</div>
+      <React.Fragment>
+        <SingleProject />
+      </React.Fragment>
     </section>
   );
 };
