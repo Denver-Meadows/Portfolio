@@ -124,10 +124,11 @@ body {
 
 // Intro
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  text-align: left;
+  // display: flex;
+  // flex-direction: column;
+  // align-content: space-around;
+  // text-align: left;
+  // display: grid;
   padding-top: 5rem;
   padding: 2rem;
   margin: 7% 20%;
@@ -176,12 +177,12 @@ body {
 
   &-header {
     color: var(--clr-font-1);
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     padding: 2rem 3rem;
     font-weight: 700;
-    margin: 2rem;
+    margin: 4rem 2rem;
 
     // &::after {
     //   content: "";
@@ -197,24 +198,26 @@ body {
 
 .single-project {
   color: var(--clr-font-1);
-  margin: 2rem 10%;
+  margin: 7rem 10%;
 
   &-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     border-top: 3px solid var(--clr-font-1);
-    padding: 3rem 0;
+    padding: 5rem 0;
 
     &-image {
-      height: 55rem;
-      width: 80rem;
+      grid-column: 1 / 6;
+      height: 100%;
+      width: 100%;
       border-radius: 10px;
     }
 
     &-details {
+      grid-column: 6 / 9;
       padding: 2rem 5rem;
-      // min-width: auto;
+      justify-self: center;
+      align-self: center;
 
       h2 {
         margin-bottom: 3rem;
