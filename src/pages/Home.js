@@ -7,7 +7,7 @@ import Projects from "../components/Projects";
 const Home = () => {
   return (
     <main>
-      <div className="home-header-content">
+      <div className="page-introduction">
         <Header />
         {/* <BGvideo /> */}
         <IntroInfo />

@@ -8,8 +8,10 @@ const IntroInfo = () => {
         I'm a software engineer that specializes in frontend web development,
         currently based in Cincinnati, OH.
       </p>
-      <div className="intro-btn-container">
-        <button className="btn intro-btn">See my work</button>
+      <div className="down-arrow">
+        <div className="chevron"></div>
+        <div className="chevron"></div>
+        <div className="chevron"></div>
       </div>
     </div>
   );

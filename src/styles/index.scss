@@ -80,6 +80,10 @@ body {
   top: 0;
 }
 
+.page-introduction {
+  height: 100%;
+}
+
 // Header
 .header {
   color: var(--clr-font-1);
@@ -131,7 +135,7 @@ body {
   // display: grid;
   padding-top: 5rem;
   padding: 2rem;
-  margin: 7% 20%;
+  margin: 5% 20% 7% 20%;
   color: var(--clr-font-1);
   font-size: 4rem;
 }
@@ -204,7 +208,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     border-top: 3px solid var(--clr-font-1);
-    padding: 5rem 0;
+    padding: 11rem 0 6rem 0;
 
     &-image {
       grid-column: 1 / 6;
@@ -247,3 +251,69 @@ body {
 //     padding: 0;
 //   }
 // }
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+$base: 0.6rem;
+.chevron {
+  position: absolute;
+  width: $base * 3.5;
+  height: $base * 0.8;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #2c3e50;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skewY(30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skewY(-30deg);
+}
+
+@keyframes move-chevron {
+  25% {
+    opacity: 1;
+  }
+  33.3% {
+    opacity: 1;
+    transform: translateY($base * 3.8);
+  }
+  66.6% {
+    opacity: 1;
+    transform: translateY($base * 5.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY($base * 8) scale(0.5);
+  }
+}
