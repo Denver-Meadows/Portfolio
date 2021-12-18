@@ -25,21 +25,31 @@
 html {
   font-size: 62.5%; // set font-size to 10px vs 16px
 }
-@media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 112.5em) {
-  html {
-    font-size: 70%;
-  }
-}
+// @media (max-width: 75em) {
+//   html {
+//     font-size: 56.25%;
+//   }
+// }
+// @media (max-width: 56.25em) {
+//   html {
+//     font-size: 50%;
+//   }
+// }
+// @media (max-width: 40.25em) {
+//   html {
+//     font-size: 40%;
+//   }
+// }
+// @media (max-width: 30.25em) {
+//   html {
+//     font-size: 30%;
+//   }
+// }
+// @media (min-width: 112.5em) {
+//   html {
+//     font-size: 70%;
+//   }
+// }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -99,6 +109,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 3rem;
+    margin: 0 12%;
 
     h1 {
       font-weight: 300;
@@ -186,7 +197,7 @@ body {
     letter-spacing: 0.1em;
     padding: 2rem 3rem;
     font-weight: 700;
-    margin: 4rem 2rem;
+    margin: 15rem 2rem;
 
     // &::after {
     //   content: "";
@@ -315,5 +326,60 @@ $base: 0.6rem;
   100% {
     opacity: 0;
     transform: translateY($base * 8) scale(0.5);
+  }
+}
+
+// Responsiveness
+@media (max-width: 1440px) {
+  .header {
+    padding-top: 0.1rem;
+  }
+}
+
+@media (max-width: 1415px) {
+  .intro {
+    margin-top: 15rem;
+  }
+
+  .header-content h1 {
+    font-size: 7rem;
+  }
+
+  .header-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .intro {
+    margin-top: 15rem;
+  }
+
+  .header-content h1 {
+    font-size: 6rem;
+  }
+
+  .header-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 996px) {
+  .header-content h1 {
+    font-size: 5rem;
+  }
+  .header-content h2 {
+    font-size: 1.4rem;
+  }
+  .intro {
+    font-size: 3rem;
+    margin-bottom: 30rem;
+    margin-top: 20rem;
   }
 }
