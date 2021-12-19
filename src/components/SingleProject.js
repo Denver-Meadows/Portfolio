@@ -1,5 +1,4 @@
 import React from "react";
-import photo from "../imgs/inventory-plus.jpg";
 
 const SingleProject = ({ project }) => {
   return (

@@ -25,31 +25,31 @@
 html {
   font-size: 62.5%; // set font-size to 10px vs 16px
 }
-// @media (max-width: 75em) {
-//   html {
-//     font-size: 56.25%;
-//   }
-// }
-// @media (max-width: 56.25em) {
-//   html {
-//     font-size: 50%;
-//   }
-// }
-// @media (max-width: 40.25em) {
-//   html {
-//     font-size: 40%;
-//   }
-// }
-// @media (max-width: 30.25em) {
-//   html {
-//     font-size: 30%;
-//   }
-// }
-// @media (min-width: 112.5em) {
-//   html {
-//     font-size: 70%;
-//   }
-// }
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 40.25em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 30.25em) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 70%;
+  }
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -92,6 +92,57 @@ body {
 
 .page-introduction {
   height: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  &-intro {
+    grid-column: 1 / 9;
+    // display: flex;
+    // flex-direction: column;
+    // align-content: space-around;
+    // text-align: left;
+    // display: grid;
+    padding-top: 5rem;
+    padding: 2rem;
+    margin: 5% 12% 7% 12%;
+    color: var(--clr-font-1);
+    font-size: 3vw;
+  }
+
+  &-header {
+    grid-column: 1 / 9;
+    color: var(--clr-font-1);
+    background-color: var(--clr-secondary-1);
+    padding-top: 0.2rem;
+    -webkit-clip-path: ellipse(51% 89% at 50% 05%);
+    clip-path: ellipse(55% 95% at 50% 05%);
+    padding-top: 2%;
+    padding-bottom: 1rem;
+
+    &-content {
+      font-family: "Josefin Sans", sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 3rem;
+      margin: 0 7%;
+
+      h1 {
+        font-weight: 300;
+        letter-spacing: 0.15em;
+        line-height: 1.25;
+        font-style: normal;
+        font-size: 5.5vw;
+        text-size-adjust: auto;
+        margin: 3rem 0;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+      }
+    }
+  }
 }
 
 // Header

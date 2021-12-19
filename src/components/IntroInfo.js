@@ -2,11 +2,12 @@ import React from "react";
 
 const IntroInfo = () => {
   return (
-    <div className="intro">
+    <div className="page-introduction-intro">
       <p className="intro-info-1">Hello,</p>
       <p className="intro-info-2">
         I'm a software engineer that specializes in frontend web development,
-        currently based in Cincinnati, OH.
+        currently based in Cincinnati, OH. Please keep scrolling to see projects
+        I've worked on.
       </p>
       <div className="down-arrow">
         <div className="chevron"></div>
