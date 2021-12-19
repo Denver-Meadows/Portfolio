@@ -3,6 +3,7 @@ import Header from "../components/Header";
 // import BGvideo from "../components/BGvideo";
 import IntroInfo from "../components/IntroInfo";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 const Home = () => {
   return (
@@ -14,6 +15,9 @@ const Home = () => {
       </div>
       <div className="home-projects">
         <Projects />
+      </div>
+      <div className="home-about">
+        <About />
       </div>
     </main>
   );
