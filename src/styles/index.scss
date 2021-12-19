@@ -99,9 +99,9 @@ body {
     grid-column: 1 / 9;
     padding-top: 5rem;
     padding: 2rem;
-    margin: 5% 12% 7% 12%;
+    margin: 5% 20% 7% 20%;
     color: var(--clr-font-1);
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   &-header {
@@ -111,7 +111,7 @@ body {
     padding-top: 0.2rem;
     -webkit-clip-path: ellipse(51% 89% at 50% 05%);
     clip-path: ellipse(55% 95% at 50% 05%);
-    padding-top: 2%;
+    padding-top: 4%;
     padding-bottom: 1rem;
 
     &-content {

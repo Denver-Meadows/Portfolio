@@ -5,8 +5,8 @@ const IntroInfo = () => {
     <div className="page-introduction-intro">
       <p className="intro-info-1">Hello,</p>
       <p className="intro-info-2">
-        I'm a software engineer that specializes in frontend web development,
-        currently based in Cincinnati, OH.
+        I'm a software engineer that specializes in frontend web development.
+        I'm currently based in the Cincinnati, OH area.
       </p>
       <div className="down-arrow">
         <div className="chevron"></div>
