@@ -13,11 +13,11 @@ const Home = () => {
         {/* <BGvideo /> */}
         <IntroInfo />
       </div>
-      <div className="home-projects">
-        <Projects />
-      </div>
       <div className="home-about">
         <About />
+      </div>
+      <div className="home-projects">
+        <Projects />
       </div>
     </main>
   );
