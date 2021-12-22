@@ -9,7 +9,7 @@ const IntroInfo = () => {
         I'm currently based in the Cincinnati, OH area.
       </p>
       <div className="down-arrow">
-        <p>Learn more about what I do</p>
+        <p className="learn-more">Learn more about what I do</p>
         <div className="chevron"></div>
         <div className="chevron"></div>
         <div className="chevron"></div>
