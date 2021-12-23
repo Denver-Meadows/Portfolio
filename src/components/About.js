@@ -11,7 +11,7 @@ const About = () => {
           alt="pixel of progammers working"
         />
       </div>
-      <h1 className="about-header">About</h1>
+      <h1 className="about-header">Capabilities</h1>
     </section>
   );
 };
