@@ -109,12 +109,12 @@ body {
   &-header {
     grid-column: 1 / 9;
     color: var(--clr-font-1);
-    background-color: var(--clr-secondary-1);
-    padding-top: 0.2rem;
-    -webkit-clip-path: ellipse(51% 89% at 50% 05%);
-    clip-path: ellipse(55% 95% at 50% 05%);
-    padding-top: 4%;
-    padding-bottom: 1rem;
+    // background-color: var(--clr-secondary-1);
+    // padding-top: 0.2rem;
+    // -webkit-clip-path: ellipse(51% 89% at 50% 05%);
+    // clip-path: ellipse(55% 95% at 50% 05%);
+    // padding-top: 4%;
+    // padding-bottom: 1rem;
 
     &-content {
       font-family: "Josefin Sans", sans-serif;
@@ -280,6 +280,7 @@ body {
 .about {
   text-align: center;
   margin: 20rem 10%;
+  color: var(--clr-font-1);
 
   &-photo {
     display: grid;

@@ -12,6 +12,10 @@ const About = () => {
         />
       </div>
       <h1 className="about-header">Capabilities</h1>
+      <ul>
+        <li>Javascript</li>
+        <li>SASS</li>
+      </ul>
     </section>
   );
 };
