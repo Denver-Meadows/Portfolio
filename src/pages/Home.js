@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <main>
       <div className="page-introduction">
-        <Header />
+        {/* <Header /> */}
         {/* <BGvideo /> */}
         <IntroInfo />
       </div>

@@ -100,15 +100,14 @@ body {
     grid-column: 1 / 9;
     padding-top: 5rem;
     padding: 2rem;
-    margin: 5% 15% 7% 15%;
+    margin: 10% 15% 7% 15%;
     color: var(--clr-font-1);
     // font-size: 2.5vw;
     font-size: 4rem;
   }
 
   &-header {
-    grid-column: 1 / 9;
-    color: var(--clr-font-1);
+    // color: var(--clr-font-1);
     // background-color: var(--clr-secondary-1);
     // padding-top: 0.2rem;
     // -webkit-clip-path: ellipse(51% 89% at 50% 05%);
@@ -308,6 +307,47 @@ body {
   margin-bottom: 3rem;
 }
 
+.intro-info-1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  animation: slideInFromLeft 3s;
+}
+
+.intro-info-2 {
+  animation: slideInFromRight 3s;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50rem);
+    /* Moves 100px on the x axis*/
+  }
+  80% {
+    transform: translateX(-1rem);
+    /* Pushes it 20px to the left prior to coming back to default */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    /* Takes it to default*/
+  }
+}
+
 .single-project {
   color: var(--clr-font-1);
   margin: 7rem 10%;
@@ -365,8 +405,16 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 20rem;
   margin-bottom: 5rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 1rem;
+  right: 8rem;
 }
 
 $base: 0.6rem;
