@@ -12,14 +12,16 @@ const About = () => {
         />
       </div>
       <h1 className="about-header">Capabilities</h1>
-      <p>
-        I'm a software engineer that specializes in front-end web development.
-        Currently based in the Cincinnati, OH area.
-      </p>
-      <ul>
-        <li>Javascript</li>
-        <li>SASS</li>
-      </ul>
+      <div className="about-container">
+        <p>
+          I'm a software engineer that specializes in front-end web development.
+          Currently based in the Cincinnati, OH area.
+        </p>
+        <ul>
+          <li>Javascript</li>
+          <li>SASS</li>
+        </ul>
+      </div>
     </section>
   );
 };
