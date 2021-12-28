@@ -25,31 +25,31 @@
 html {
   font-size: 62.5%; // set font-size to 10px vs 16px
 }
-@media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (max-width: 40.25em) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (max-width: 30.25em) {
-  html {
-    font-size: 30%;
-  }
-}
-@media (min-width: 112.5em) {
-  html {
-    font-size: 70%;
-  }
-}
+// @media (max-width: 75em) {
+//   html {
+//     font-size: 56.25%;
+//   }
+// }
+// @media (max-width: 56.25em) {
+//   html {
+//     font-size: 50%;
+//   }
+// }
+// @media (max-width: 40.25em) {
+//   html {
+//     font-size: 40%;
+//   }
+// }
+// @media (max-width: 30.25em) {
+//   html {
+//     font-size: 30%;
+//   }
+// }
+// @media (min-width: 112.5em) {
+//   html {
+//     font-size: 70%;
+//   }
+// }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -95,10 +95,9 @@ body {
   height: 100vh;
 
   &-intro {
-    height: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: space-around;
     padding: 2rem 10rem;
     // margin: 10rem 20rem;
     margin: 10% 15% 7% 15%;
@@ -106,12 +105,6 @@ body {
     color: var(--clr-font-1);
     // font-size: 2.5vw;
     font-size: 4rem;
-
-    &-items {
-      display: flex;
-      flex-direction: column;
-      align-items: space-between;
-    }
   }
 
   &-header {
@@ -288,7 +281,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  // margin-top: 20rem;
+  margin-top: 20rem;
   // margin-bottom: 5rem;
   // position: absolute;
   // margin-left: auto;
@@ -306,7 +299,6 @@ body {
   margin-bottom: 2rem;
   animation: slideInFromLeft 3s;
   color: var(--clr-font-secondary);
-  padding-left: 0.5rem;
 }
 
 .intro-info-2 {
@@ -316,7 +308,6 @@ body {
 }
 
 .intro-info-3 {
-  font-size: 3.5rem;
   animation: slideInFromLeft 3s;
 }
 
@@ -471,30 +462,66 @@ $base: 0.6rem;
   }
 }
 
-// Responsivenes
-@media (max-width: 1024px) {
-  .page-introduction-intro {
-    height: 65%;
-    padding: 2rem 10rem;
-    // margin: 10rem 20rem;
-    margin: 20% 5% 7% 5%;
+// Responsiveness
+@media (max-width: 1440px) {
+  .header {
+    padding-top: 0.1rem;
+  }
+  .down-arrow {
+    margin-top: 8rem;
   }
 }
 
-@media (max-width: 768px) {
-  .nav {
-    justify-content: center;
-    margin-right: 0;
+@media (max-width: 1415px) {
+  .intro {
+    margin-top: 15rem;
   }
-  .page-introduction-intro {
-    height: 65%;
-    margin: 20% 0;
+  .header-content h1 {
+    font-size: 7rem;
+  }
+  .header-content h2 {
+    font-size: 1.8rem;
+  }
+  .intro {
+    font-size: 3.5rem;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
+  .intro {
+    margin-top: 15rem;
+  }
   .page-introduction-intro {
-    height: 65%;
-    margin: 40% 0;
+    margin-top: 15rem;
+  }
+  .header-content h1 {
+    font-size: 6rem;
+  }
+  .header-content h2 {
+    font-size: 1.5rem;
+  }
+  .intro {
+    font-size: 3rem;
+  }
+  .down-arrow {
+    margin-top: 10rem;
+    margin-bottom: 0;
+  }
+  .intro-info-2 {
+    margin-bottom: 18rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .header-content h1 {
+    font-size: 5rem;
+  }
+  .header-content h2 {
+    font-size: 1.4rem;
+  }
+  .intro {
+    font-size: 3rem;
+    margin-bottom: 30rem;
+    margin-top: 20rem;
   }
 }
