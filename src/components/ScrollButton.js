@@ -6,9 +6,9 @@ const ScrollButton = () => {
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 700) {
+    if (scrolled > 1000) {
       setVisible(true);
-    } else if (scrolled <= 700) {
+    } else if (scrolled <= 1000) {
       setVisible(false);
     }
   };
@@ -26,7 +26,7 @@ const ScrollButton = () => {
 
   return (
     <button
-      className="back-to-top back-btn"
+      className="back-to-top back-btn fade-in"
       onClick={scrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     >
