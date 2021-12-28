@@ -266,10 +266,10 @@ body {
 
   &-header {
     border-bottom: 3px solid var(--clr-font-1);
-    color: var(--clr-font-1);
+    color: var(--clr-font-secondary);
     font-size: 4rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     padding: 10rem 3rem;
     font-weight: 700;
     margin: 14rem 2rem 7rem 2rem;
@@ -448,6 +448,38 @@ body {
 
     &-details {
       grid-column: 6 / 9;
+      padding: 2rem 5rem;
+      justify-self: center;
+      align-self: center;
+
+      h2 {
+        margin-bottom: 3rem;
+        font-weight: 700;
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+.about-container {
+  color: var(--clr-font-1);
+  margin: 7rem 10%;
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    // border-top: 3px solid var(--clr-font-1);
+    padding: 11rem 0 6rem 0;
+
+    &-description {
+      grid-column: 1 / 5;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    &-tech {
+      grid-column: 5 / 9;
       padding: 2rem 5rem;
       justify-self: center;
       align-self: center;

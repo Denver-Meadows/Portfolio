@@ -8,17 +8,17 @@ import About from "../components/About";
 const Home = () => {
   return (
     <main>
-      <div className="page-introduction">
+      <section className="page-introduction">
         {/* <Header /> */}
         {/* <BGvideo /> */}
         <IntroInfo />
-      </div>
-      <div className="home-about">
+      </section>
+      <section className="home-about">
         <About />
-      </div>
-      <div className="home-projects">
+      </section>
+      <section className="home-projects">
         <Projects />
-      </div>
+      </section>
     </main>
   );
 };
