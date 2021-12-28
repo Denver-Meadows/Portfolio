@@ -265,14 +265,14 @@ body {
   }
 
   &-header {
-    border-bottom: 3px solid var(--clr-font-1);
+    // border-bottom: 3px solid var(--clr-font-1);
     color: var(--clr-font-secondary);
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: 10rem 3rem;
+    padding: 3rem 3rem;
     font-weight: 700;
-    margin: 14rem 2rem 7rem 2rem;
+    margin: 14rem 2rem 2rem 2rem;
   }
 }
 
@@ -461,6 +461,10 @@ body {
   }
 }
 
+.break {
+  margin-top: 1rem;
+}
+
 .about-container {
   color: var(--clr-font-1);
   margin: 7rem 10%;
@@ -476,6 +480,11 @@ body {
       height: 100%;
       width: 100%;
       border-radius: 10px;
+
+      p {
+        margin-bottom: 2rem;
+        line-height: 1.4;
+      }
     }
 
     &-tech {
@@ -484,10 +493,9 @@ body {
       justify-self: center;
       align-self: center;
 
-      h2 {
+      h3 {
         margin-bottom: 3rem;
         font-weight: 700;
-        font-size: 4rem;
       }
     }
   }
@@ -574,6 +582,7 @@ $base: 0.6rem;
   position: fixed;
   right: 4rem;
   bottom: 4.2rem;
+  cursor: pointer;
 }
 
 .back-btn {
@@ -582,7 +591,6 @@ $base: 0.6rem;
   border-radius: 50%;
   background-color: var(--clr-font-1);
   font-size: 3.5rem;
-  cursor: pointer;
   animation: fadeIn 6s;
 }
 
