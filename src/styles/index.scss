@@ -77,6 +77,22 @@ body {
       margin: 0 1.5rem;
       border-bottom: 4px solid var(--clr-primary-2);
 
+      &-1 {
+        animation: dropDown 2.2s;
+      }
+      &-2 {
+        animation: dropDown 2.4s;
+      }
+      &-3 {
+        animation: dropDown 2.6s;
+      }
+      &-4 {
+        animation: dropDown 2.8s;
+      }
+      &-5 {
+        animation: dropDown 3s;
+      }
+
       &:hover {
         color: var(--clr-font-secondary);
         border-bottom: 4px solid var(--clr-font-secondary);
@@ -229,7 +245,7 @@ body {
   }
 
   &-header {
-    color: var(--clr-font-1);
+    color: var(--clr-font-secondary);
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -392,6 +408,19 @@ body {
   75% {
     opacity: 0;
     transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dropDown {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(-2rem);
   }
   100% {
     opacity: 1;

@@ -13,7 +13,7 @@ const Projects = () => {
           alt="pixel of progammers working"
         />
       </div> */}
-      <h1 className="projects-header">Projects</h1>
+      <h1 className="projects-header">Recent Work</h1>
       <React.Fragment>
         {projectData.map((project, index) => {
           return <SingleProject key={index} project={project} />;
