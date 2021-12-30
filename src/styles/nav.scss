@@ -3,7 +3,8 @@
   // background-color: var(--clr-primary-1);
   color: var(--clr-font-1);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1;
   margin-right: 10rem;
   margin-top: 1rem;
@@ -41,4 +42,10 @@
       }
     }
   }
+}
+
+.nav-number {
+  color: var(--clr-font-secondary);
+  margin-right: 0.7rem;
+  font-size: 1.3rem;
 }

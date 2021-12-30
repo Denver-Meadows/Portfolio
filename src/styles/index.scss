@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Open+Sans:wght@300&family=Source+Serif+Pro&display=swap");
 
 :root {
   /* bg color nav*/
@@ -80,6 +81,32 @@ body {
   border-radius: 5px;
   opacity: 50%;
   margin: 0 auto;
+}
+
+.inside-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: var(--clr-primary-2);
+  color: var(--clr-font-secondary);
+  clip-path: polygon(8% 28%, 47% 0, 89% 28%, 89% 72%, 48% 100%, 8% 69%);
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.outside-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--clr-font-secondary);
+  clip-path: polygon(8% 28%, 47% 0, 89% 28%, 89% 72%, 48% 100%, 8% 69%);
+  margin-left: 5rem;
+  animation: dropDown 0.5s ease-in;
 }
 
 // BG-Video
