@@ -1,0 +1,44 @@
+// Navbar
+.nav {
+  // background-color: var(--clr-primary-1);
+  color: var(--clr-font-1);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  margin-right: 10rem;
+  margin-top: 1rem;
+
+  &-list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+    &-link {
+      cursor: pointer;
+      padding: 1.5rem 1rem 1rem 1rem;
+      margin: 0 1.5rem;
+      border-bottom: 4px solid var(--clr-primary-2);
+
+      &-1 {
+        animation: dropDown 0.5s ease-in;
+      }
+      &-2 {
+        animation: dropDown 0.6s ease-in;
+      }
+      &-3 {
+        animation: dropDown 0.7s ease-in;
+      }
+      &-4 {
+        animation: dropDown 0.8s ease-in;
+      }
+      &-5 {
+        animation: dropDown 0.9s ease-in;
+      }
+
+      &:hover {
+        color: var(--clr-font-secondary);
+        border-bottom: 4px solid var(--clr-font-secondary);
+      }
+    }
+  }
+}

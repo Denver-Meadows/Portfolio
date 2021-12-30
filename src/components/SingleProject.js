@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/single-project.scss";
 
 const SingleProject = ({ project }) => {
   return (
