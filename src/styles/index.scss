@@ -95,6 +95,10 @@ body {
   font-family: "Source Serif Pro", serif;
   font-size: 1.8rem;
   cursor: pointer;
+
+  &:hover {
+    background-color: var(--clr-primary-1);
+  }
 }
 
 .outside-logo {

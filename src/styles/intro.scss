@@ -7,11 +7,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 10rem;
-    // margin: 10rem 20rem;
     margin: 10% 15% 7% 15%;
-    // margin: 0px auto;
     color: var(--clr-font-1);
-    // font-size: 2.5vw;
     font-size: 4rem;
 
     &-items {
@@ -61,7 +58,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   // animation: slideInFromLeft 3s;
-  animation: fadeUp 1.3s ease-in;
+  animation: fadeUp 1.5s ease-in-out;
   color: var(--clr-font-secondary);
   padding-left: 0.5rem;
 }
@@ -69,12 +66,16 @@
 .intro-info-2 {
   font-size: 7rem;
   // animation: slideInFromRight 3s;
-  animation: fadeUp 1.4s ease-in;
+  animation: fadeUp 1.6s ease-in-out;
   margin-bottom: 2rem;
 }
 
 .intro-info-3 {
   font-size: 3.5rem;
   // animation: slideInFromLeft 3s;
-  animation: fadeUp 1.5s ease-in;
+  animation: fadeUp 1.7s ease-in-out;
+
+  // background: linear-gradient(var(--clr-font-secondary), var(--clr-font-1));
+  // background-clip: text;
+  // -webkit-text-fill-color: transparent;
 }

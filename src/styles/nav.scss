@@ -18,7 +18,6 @@
       cursor: pointer;
       padding: 1.5rem 1rem 1rem 1rem;
       margin: 0 1.5rem;
-      border-bottom: 4px solid var(--clr-primary-2);
 
       &-1 {
         animation: dropDown 0.5s ease-in;
@@ -38,7 +37,6 @@
 
       &:hover {
         color: var(--clr-font-secondary);
-        border-bottom: 4px solid var(--clr-font-secondary);
       }
     }
   }
