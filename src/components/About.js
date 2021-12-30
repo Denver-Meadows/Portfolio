@@ -4,7 +4,12 @@ import "../styles/about.scss";
 const About = () => {
   return (
     <div className="about">
-      <h1 className="about-header">Experience</h1>
+      <div className="about-div">
+        <h1 className="about-header">
+          <span className="number">01.</span> About Me
+        </h1>
+        <div className="section-underline"></div>
+      </div>
       <div className="about-container">
         <div className="about-container-content">
           <div className="about-container-content-description">

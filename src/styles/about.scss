@@ -13,15 +13,17 @@
     margin-bottom: 20%;
   }
 
+  &-div {
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+  }
+
   &-header {
-    // border-bottom: 3px solid var(--clr-font-1);
-    color: var(--clr-font-secondary);
+    color: var(--clr-font-1);
     font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    padding: 3rem 3rem;
+
     font-weight: 700;
-    margin: 5rem 2rem 2rem 2rem;
   }
 }
 
@@ -81,5 +83,17 @@
         color: var(--clr-font-secondary);
       }
     }
+  }
+}
+
+@media (max-width: 1138px) {
+  .about {
+    margin: 2rem 5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about {
+    margin: 2rem 0%;
   }
 }

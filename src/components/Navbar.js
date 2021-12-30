@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="nav-list">
         {/* turn to anchor tags */}
         <li className="nav-list-link nav-list-link-2">
-          <span className="nav-number">01.</span> Experience
+          <span className="nav-number">01.</span> About
         </li>
         <li className="nav-list-link nav-list-link-3">
           <span className="nav-number">02.</span> Work
