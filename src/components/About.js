@@ -33,7 +33,7 @@ const About = () => {
               <li>Express</li>
               <li>Node.JS</li>
               <li>SCSS / SASS</li>
-              <li>Mongoose</li>
+              <li>MongoDB</li>
               <li>Git / GitHub</li>
               <li>Python</li>
             </ul>
