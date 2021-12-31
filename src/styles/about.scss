@@ -1,9 +1,13 @@
 // About
+
+.home-about {
+  animation: fadeUp 2s;
+}
 .about {
   text-align: center;
   margin: 2rem 10%;
   color: var(--clr-font-1);
-  animation: fadeUp 3s;
+  // animation: fadeUp 3s;
 
   &-photo {
     display: grid;
