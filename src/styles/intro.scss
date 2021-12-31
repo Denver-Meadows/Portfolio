@@ -79,3 +79,34 @@
   // background-clip: text;
   // -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1138px) {
+  .page-introduction-intro {
+    margin: 15% 8%;
+  }
+}
+@media (max-width: 1138px) {
+  .page-introduction-intro {
+    margin: 17% 5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-introduction-intro {
+    margin: 20% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-introduction-intro {
+    margin: 25% 0;
+    padding: 2rem 5rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .page-introduction-intro {
+    margin: 25% 0;
+    padding: 9rem 5rem;
+  }
+}

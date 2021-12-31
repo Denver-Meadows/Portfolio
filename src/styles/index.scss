@@ -176,12 +176,16 @@ body {
 }
 
 .back-btn {
-  height: 65px;
-  width: 65px;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
-  background-color: var(--clr-font-1);
+  color: var(--clr-font-secondary);
+  background-color: var(--clr-primary-2);
   font-size: 3.5rem;
-  animation: fadeIn 6s;
+  // animation: fadeIn 6s;
+  animation: fadeUp 3s;
+  border: none;
+  box-shadow: 0 1.6rem 4rem var(--clr-primary-1);
 }
 
 // Animations

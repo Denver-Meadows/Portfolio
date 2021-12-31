@@ -26,7 +26,7 @@ const ScrollButton = () => {
 
   return (
     <button
-      className="back-to-top back-btn fade-in"
+      className="back-to-top back-btn"
       onClick={scrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     >
