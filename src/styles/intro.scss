@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 10rem;
-    margin: 10% 15% 7% 15%;
+    margin: 10% 15% 0 15%;
     color: var(--clr-font-1);
     font-size: 4rem;
 
@@ -99,7 +99,7 @@
 
 @media (max-width: 768px) {
   .page-introduction-intro {
-    margin: 25% 0;
+    margin: 25% 0 5% 0;
     padding: 2rem 5rem;
   }
 }

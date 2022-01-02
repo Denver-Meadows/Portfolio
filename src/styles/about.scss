@@ -1,11 +1,11 @@
 // About
 
 .home-about {
-  animation: fadeUp 2s;
+  // animation: fadeUp 2s;
 }
 .about {
   text-align: center;
-  margin: 2rem 10%;
+  margin: 0rem 10%;
   color: var(--clr-font-1);
   // animation: fadeUp 3s;
 
@@ -40,7 +40,7 @@
 
 .about-container {
   color: var(--clr-font-1);
-  margin: 5rem 10%;
+  margin: 5rem 20%;
 
   &-content {
     display: grid;

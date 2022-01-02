@@ -2,21 +2,26 @@ import React, { useState } from "react";
 import "../styles/about.scss";
 
 const About = () => {
-  const [visible, setVisible] = useState(false);
+  const [visibleAbout, setVisibleAbout] = useState(false);
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 400) {
-      setVisible(true);
-    } else if (scrolled <= 400) {
-      setVisible(false);
+    if (scrolled > 100) {
+      setVisibleAbout(true);
     }
   };
 
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <div className="about" style={{ display: visible ? "inline" : "none" }}>
+    <div
+      className="about"
+      style={
+        ({ display: visibleAbout ? "inline" : "none" },
+        { animation: visibleAbout ? "fadeUp 2s" : "" })
+      }
+      // style={{ animation: visibleAbout ? "fadeUp 2s" : "" }}
+    >
       <div className="about-div">
         <h1 className="about-header">
           <span className="number">01.</span> About Me

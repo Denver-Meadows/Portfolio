@@ -13,9 +13,9 @@ const Home = () => {
         {/* <BGvideo /> */}
         <IntroInfo />
       </section>
-      <section className="home-about">
-        <About />
-      </section>
+
+      <About />
+
       <section className="home-projects">
         <Projects />
       </section>
