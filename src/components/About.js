@@ -14,7 +14,7 @@ const About = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <div
+    <section
       className="about"
       style={
         ({ display: visibleAbout ? "inline" : "none" },
@@ -64,7 +64,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
