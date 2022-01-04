@@ -5,8 +5,8 @@
   &-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    border-top: 3px solid var(--clr-font-1);
-    padding: 11rem 0 6rem 0;
+    border-bottom: 3px solid var(--clr-font-1);
+    padding: 6rem 0 12rem 0;
 
     &-image {
       grid-column: 1 / 6;
@@ -22,9 +22,16 @@
       align-self: center;
 
       h2 {
+        color: var(--clr-font-secondary);
         margin-bottom: 3rem;
         font-weight: 700;
         font-size: 4rem;
+      }
+
+      &-link {
+        color: var(--clr-font-secondary);
+        margin-top: 2rem;
+        cursor: pointer;
       }
     }
   }

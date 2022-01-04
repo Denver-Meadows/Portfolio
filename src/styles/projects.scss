@@ -20,23 +20,32 @@
     }
   }
 
-  &-header {
-    color: var(--clr-font-secondary);
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 2rem 3rem;
-    font-weight: 700;
-    margin: 15rem 2rem;
+  &-div {
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+  }
 
-    // &::after {
-    //   content: "";
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 40%;
-    //   height: 3px;
-    //   width: 20%;
-    //   border-bottom: 2px solid magenta;
-    // }
+  &-header {
+    color: var(--clr-font-1);
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+
+@keyframes projectsFadeUp {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  66% {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+  100% {
+    opacity: 1;
   }
 }

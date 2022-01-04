@@ -15,10 +15,7 @@ const Home = () => {
       </section>
 
       <About />
-
-      <section className="home-projects">
-        <Projects />
-      </section>
+      <Projects />
     </main>
   );
 };
