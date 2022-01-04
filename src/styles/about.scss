@@ -3,7 +3,6 @@
   text-align: center;
   margin: 0rem 10%;
   color: var(--clr-font-1);
-  // animation: fadeUp 3s;
 
   &-photo {
     display: grid;
@@ -36,7 +35,7 @@
 
 .about-container {
   color: var(--clr-font-1);
-  margin: 5rem 20%;
+  margin: 5rem 15%;
 
   &-content {
     display: grid;
@@ -84,6 +83,23 @@
         color: var(--clr-font-secondary);
       }
     }
+  }
+}
+
+@keyframes AboutFadeUp {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  66% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
   }
 }
 

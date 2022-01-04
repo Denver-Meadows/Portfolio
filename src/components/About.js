@@ -18,9 +18,8 @@ const About = () => {
       className="about"
       style={
         ({ display: visibleAbout ? "inline" : "none" },
-        { animation: visibleAbout ? "fadeUp 2s" : "" })
+        { animation: visibleAbout ? "AboutFadeUp 2.5s" : "" })
       }
-      // style={{ animation: visibleAbout ? "fadeUp 2s" : "" }}
     >
       <div className="about-div">
         <h1 className="about-header">
