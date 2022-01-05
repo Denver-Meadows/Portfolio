@@ -8,11 +8,7 @@ import About from "../components/About";
 const Home = () => {
   return (
     <main>
-      <section className="page-introduction">
-        {/* <Header /> */}
-        {/* <BGvideo /> */}
-        <IntroInfo />
-      </section>
+      <IntroInfo />
 
       <About />
       <Projects />
