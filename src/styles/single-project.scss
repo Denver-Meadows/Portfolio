@@ -5,7 +5,7 @@
   &-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    border-bottom: 3px solid var(--clr-font-1);
+    // border-bottom: 3px solid var(--clr-font-1);
     padding: 6rem 0 12rem 0;
 
     &-image {
