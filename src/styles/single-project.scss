@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     // border-bottom: 3px solid var(--clr-font-1);
-    padding: 6rem 0 12rem 0;
+    padding: 6rem 0 5rem 0;
 
     &-image {
       grid-column: 1 / 6;
