@@ -2,7 +2,6 @@
   text-align: center;
   margin: 0rem 10%;
   color: var(--clr-font-1);
-  margin-bottom: 5rem;
 
   &-div {
     display: flex;
@@ -20,7 +19,7 @@
 
 .contact-container {
   color: var(--clr-font-1);
-  margin: 5rem 15%;
+  margin: 5rem 15% 0 15%;
 
   &-content {
     display: flex;
@@ -30,7 +29,7 @@
     // display: grid;
     // grid-template-columns: repeat(7, 1fr);
     // grid-template-rows: repeat(3, 1fr);
-    padding: 2rem 0 6rem 0;
+    padding-top: 2rem;
 
     &-greeting {
       // grid-column: 2 / 7;
@@ -39,11 +38,28 @@
       border-radius: 10px;
       // text-align: center;
       padding: 1rem 15rem;
+      margin-bottom: 5rem;
 
       p {
         margin-bottom: 2rem;
         line-height: 1.4;
       }
     }
+
+    &-links {
+      ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20rem;
+      }
+      li {
+        list-style: none;
+        margin: 1rem 1rem;
+      }
+    }
   }
+}
+
+.copyright {
+  margin-bottom: 2rem;
 }

@@ -33,6 +33,9 @@ const Contact = () => {
                 <li>Twitter</li>
               </ul>
             </div>
+            <div className="copyright">
+              <p>Created by Denver Meadows</p>
+            </div>
           </div>
         </div>
       </Fade>
