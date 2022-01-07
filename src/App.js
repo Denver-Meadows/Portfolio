@@ -20,7 +20,7 @@ function App() {
           <h1>Wrong Page</h1>
         </Route>
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

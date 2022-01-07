@@ -1,19 +1,31 @@
 import React from "react";
 import "../styles/footer.scss";
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { MdOutlineEmail } from "react-icons/md";
 
 export const Footer = () => {
   return (
-    <div>
-      <div className="contact-container-content-links">
-        <ul>
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-          <li>Email</li>
-          <li>Twitter</li>
-        </ul>
-      </div>
-      <div className="copyright">
-        <p>Created by Denver Meadows</p>
+    <div className="footer">
+      <div className="footer-content">
+        <div className="footer-links">
+          <ul>
+            <li>
+              <FiGithub />
+            </li>
+            <li>
+              <FiLinkedin />
+            </li>
+            <li>
+              <MdOutlineEmail />
+            </li>
+            <li>
+              <FiTwitter />
+            </li>
+          </ul>
+        </div>
+        <div className="footer-copyright">
+          <p>Created by Me 👋</p>
+        </div>
       </div>
     </div>
   );
