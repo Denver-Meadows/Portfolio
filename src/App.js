@@ -4,12 +4,13 @@ import Home from "./pages/Home";
 import React from "react";
 import BGvideo from "./components/BGvideo";
 import ScrollButton from "./components/ScrollButton";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <BGvideo />
+      {/* <BGvideo /> */}
       <ScrollButton />
       <Switch>
         <Route path="/" exact>
@@ -19,6 +20,7 @@ function App() {
           <h1>Wrong Page</h1>
         </Route>
       </Switch>
+      {/* <Footer /> */}
     </div>
   );
 }

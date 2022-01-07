@@ -16,6 +16,18 @@ const Contact = () => {
         </div>
       </Rotate>
       <Fade>
+        <div className="contact-greeting">
+          <p>
+            I'm currently available and looking for new opportunities. If you
+            have an interesting problem to solve or just want to say hi, please
+            reach out!
+          </p>
+        </div>
+        <div className="contact-button-container">
+          <button className="contact-button">Say Hello</button>
+        </div>
+      </Fade>
+      {/* <Fade>
         <div className="contact-container">
           <div className="contact-container-content">
             <div className="contact-container-content-greeting">
@@ -25,20 +37,9 @@ const Contact = () => {
                 please reach out!
               </p>
             </div>
-            <div className="contact-container-content-links">
-              <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Email</li>
-                <li>Twitter</li>
-              </ul>
-            </div>
-            <div className="copyright">
-              <p>Created by Denver Meadows</p>
-            </div>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
     </section>
   );
 };
