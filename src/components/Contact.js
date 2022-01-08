@@ -24,7 +24,9 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-button-container">
-          <button className="contact-button">Say Hello</button>
+          <a href="mailto:denver.meadows@yahoo.com">
+            <button className="contact-button">Say Hello</button>
+          </a>
         </div>
       </Fade>
       {/* <Fade>

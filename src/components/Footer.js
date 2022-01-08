@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/footer.scss";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -10,16 +11,27 @@ export const Footer = () => {
         <div className="footer-links">
           <ul>
             <li>
-              <FiGithub />
+              <a href="https://github.com/Denver-Meadows" target="_blank">
+                <FiGithub />
+              </a>
             </li>
             <li>
-              <FiLinkedin />
+              <a
+                href="https://linkedin.com/in/denver-meadows-615a6442"
+                target="_blank"
+              >
+                <FiLinkedin />
+              </a>
             </li>
             <li>
-              <MdOutlineEmail />
+              <a href="mailto:denver.meadows@yahoo.com">
+                <MdOutlineEmail />
+              </a>
             </li>
             <li>
-              <FiTwitter />
+              <a href="https://twitter.com/denver_meadows" target="_blank">
+                <FiTwitter />
+              </a>
             </li>
           </ul>
         </div>

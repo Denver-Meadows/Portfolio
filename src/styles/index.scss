@@ -456,30 +456,61 @@ $base: 0.6rem;
 }
 
 // Responsivenes
-@media (max-width: 1024px) {
-  .page-introduction-intro {
-    height: 65%;
-    padding: 2rem 10rem;
-    // margin: 10rem 20rem;
-    margin: 20% 5% 7% 5%;
-  }
+// @media (max-width: 1024px) {
+//   .page-introduction-intro {
+//     height: 65%;
+//     padding: 2rem 10rem;
+//     // margin: 10rem 20rem;
+//     margin: 20% 5% 7% 5%;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .nav {
+//     justify-content: center;
+//     margin-right: 0;
+//     font-size: 2.5rem;
+//   }
+//   .page-introduction-intro {
+//     height: 65%;
+//     margin: 20% 0;
+//   }
+// }
+
+// @media (max-width: 500px) {
+//   .page-introduction-intro {
+//     height: 65%;
+//     margin: 40% 0;
+//   }
+// }
+
+.particle {
+  --x: 0;
+  --y: 0;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 5px;
+  width: 5px;
+  z-index: -1;
 }
 
-@media (max-width: 768px) {
-  .nav {
-    justify-content: center;
-    margin-right: 0;
-    font-size: 2.5rem;
-  }
-  .page-introduction-intro {
-    height: 65%;
-    margin: 20% 0;
-  }
+.particle.move {
+  animation: move 1000ms linear forwards;
 }
 
-@media (max-width: 500px) {
-  .page-introduction-intro {
-    height: 65%;
-    margin: 40% 0;
+@keyframes move {
+  to {
+    transform: translate(var(--x), var(--y));
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
