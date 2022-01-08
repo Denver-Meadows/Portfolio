@@ -42,6 +42,10 @@
   }
 }
 
+.mail a {
+  color: var(--clr-font-secondary);
+}
+
 @media (max-width: 768px) {
   .footer {
     &-links {
