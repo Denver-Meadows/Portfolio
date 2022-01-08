@@ -105,4 +105,21 @@
   .about {
     margin: 2rem 0%;
   }
+
+  .about-container {
+    margin: 5rem 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+
+    &-tech {
+      margin-top: 10rem;
+      margin-bottom: 15rem;
+    }
+  }
 }
