@@ -186,6 +186,12 @@ body {
   animation: fadeUp 3s;
   border: none;
   box-shadow: 0 1.6rem 4rem var(--clr-primary-1);
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.2rem 0.5rem var(--clr-font-secondary);
+    /* less blur when clicked */
+  }
 }
 
 // Animations

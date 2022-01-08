@@ -40,6 +40,12 @@
 
     &:hover {
       background-color: var(--clr-primary-1);
+      transform: translateY(-3px);
+      box-shadow: 0 0.5rem 1rem var(--clr-font-secondary);
+    }
+    &:active {
+      transform: translateY(-1px);
+      box-shadow: 0 0.2rem 0.5rem var(--clr-font-secondary);
     }
   }
 }
