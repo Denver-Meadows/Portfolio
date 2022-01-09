@@ -47,3 +47,100 @@
   margin-right: 0.7rem;
   font-size: 1.3rem;
 }
+
+.nav-toggle-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  animation: dropDown 0.7s ease-in;
+}
+
+.hamburger-0 {
+  height: 2px;
+  width: 100%;
+  background-color: var(--clr-font-secondary);
+  border-radius: 10px;
+}
+
+.hamburger-1 {
+  height: 2px;
+  width: 90%;
+  background-color: var(--clr-font-secondary);
+  border-radius: 10px;
+}
+
+.hamburger-2 {
+  height: 2px;
+  width: 80%;
+  background-color: var(--clr-font-secondary);
+  border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .inside-logo {
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+  }
+
+  .outside-logo {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav {
+    margin-top: 3rem;
+  }
+
+  .inside-logo {
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 2.2rem;
+  }
+
+  .outside-logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    margin-right: 6rem;
+  }
+  .nav-toggle-btn {
+    display: flex;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 645px) {
+  .nav {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+
+  .inside-logo {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.4rem;
+  }
+
+  .outside-logo {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
