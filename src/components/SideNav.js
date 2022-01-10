@@ -19,7 +19,7 @@ const SideNav = () => {
   };
 
   return (
-    <div
+    <aside
       className={`${
         isSideNavOpen ? "side-nav-modal show-side-nav-modal" : "side-nav-modal"
       }`}
@@ -56,7 +56,7 @@ const SideNav = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </aside>
   );
 };
 

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/intro.scss";
+import { AppContext } from "../context";
 
 const IntroInfo = () => {
+  const { isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav } =
+    useContext(AppContext);
+
   return (
-    <section className="page-introduction">
+    <section
+      className={`${
+        isSideNavOpen ? "page-introduction blur" : "page-introduction"
+      }`}
+    >
       <div className="page-introduction-intro">
         <div className="intro-items">
           <p className="intro-info-1">Hello, my name is</p>
