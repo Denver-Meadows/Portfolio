@@ -317,17 +317,14 @@ body {
 @keyframes slideInFromRight {
   0% {
     opacity: 0;
-    transform: translateX(20rem);
-    /* Moves 100px on the x axis*/
+    transform: translateX(55rem);
   }
-  80% {
-    transform: translateX(-1rem);
-    /* Pushes it 20px to the left prior to coming back to default */
-  }
+  // 80% {
+  //   transform: translateX(-1rem);
+  // }
   100% {
     opacity: 1;
     transform: translateX(0);
-    /* Takes it to default*/
   }
 }
 
@@ -513,4 +510,20 @@ $base: 0.6rem;
   100% {
     opacity: 0;
   }
+}
+
+.blur {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
 }

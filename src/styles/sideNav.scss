@@ -15,6 +15,11 @@
   height: 100vh;
   width: 55%;
   background-color: var(--clr-primary-1);
+  // background-image: linear-gradient(
+  //   to right,
+  //   var(--clr-primary-2),
+  //   var(--clr-secondary-1)
+  // );
   color: var(--clr-font-1);
   display: flex;
   justify-content: space-around;
@@ -23,17 +28,24 @@
   opacity: 0.98;
   font-size: 3rem;
 
+  &-number {
+    color: var(--clr-font-secondary);
+    margin-right: 0.7rem;
+    font-size: 2.2rem;
+  }
+
   &-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style: none;
     text-decoration: none;
+    margin-bottom: 50rem;
 
     &-link {
       cursor: pointer;
       padding: 1.5rem 1rem 1rem 1rem;
-      margin: 0 1.5rem;
+      margin: 1rem 1.5rem;
 
       &:hover {
         color: var(--clr-font-secondary);
@@ -45,4 +57,14 @@
 .show-side-nav-modal {
   visibility: visible;
   z-index: 10;
+  animation: slideInFromRight 0.5s ease-in;
+}
+
+.close-side-nav-btn {
+  position: fixed;
+  top: 3rem;
+  right: 5rem;
+  cursor: pointer;
+  color: var(--clr-font-secondary);
+  font-size: 5rem;
 }

@@ -1,9 +1,13 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useContext } from "react";
 import "../styles/nav.scss";
 import "./Logo";
 import Logo from "./Logo";
+import { AppContext } from "../context";
 
 const Navbar = () => {
+  const { isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav } =
+    useContext(AppContext);
+
   const handleClick = (id) => {
     const anchor = document.querySelector(`.${id}`);
     if (id === "about") {
@@ -40,7 +44,7 @@ const Navbar = () => {
           <span className="nav-number">04.</span> Resume
         </li>
       </ul>
-      <div className="nav-toggle-btn">
+      <div className="nav-toggle-btn" onClick={openSideNav}>
         <span className="hamburger-0"></span>
         <span className="hamburger-1"></span>
         <span className="hamburger-2"></span>
