@@ -44,14 +44,14 @@ const About = () => {
               </p>
               <p>
                 From there I made my way to the world of web development and
-                found a passion for building fun interactive web apps. Since
-                then I have been immersed in Javascript, React and all things
-                front-end!
+                found a passion for building fun interactive web applications.
+                Since then I have been immersed in Javascript, React and all
+                things front-end!
               </p>
               <p>
                 {" "}
-                I'm currently available for exciting new opportunities and would
-                love to connect.
+                I'm currently seeking new opportunities and would love the
+                opportunity to discuss any upcoming or current project needs.
               </p>
             </div>
             <div className="about-container-content-tech">
