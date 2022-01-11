@@ -32,6 +32,11 @@
         color: var(--clr-font-secondary);
         margin-top: 2rem;
         cursor: pointer;
+
+        a:visited {
+          text-decoration: none;
+          color: var(--clr-font-secondary);
+        }
       }
     }
   }
