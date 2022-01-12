@@ -16,11 +16,11 @@ export const projectData = [
     url: "",
   },
   {
-    name: "Inventory+",
+    name: "CampAdvisor",
     details:
-      "Inventory+ is a fullstack application that utilizes the MERN stack. This app is optimized for desktop but is compatiable with tablets and smart phones as well. Inventory+ allows clients to track inventory, customer and supplier data.",
+      "CampAdvisor is a fullstack application that was built with MongoDB, Node.js, Express.js and EJS. It has full authentication and authorization to allow users to sign in, add, delete and review campgrounds.",
     photo:
-      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1639846765/portfolio/invetory-plus_obwwa1.jpg",
-    url: "",
+      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1642024721/portfolio/camp-advisor_mmezvc.png",
+    url: "https://fathomless-temple-13970.herokuapp.com/",
   },
 ];
