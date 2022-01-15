@@ -17,7 +17,7 @@ const SingleProject = ({ project }) => {
               <h2>{project.name}</h2>
               <p>{project.details}</p>
               <p className="single-project-container-details-link">
-                <a href={project.url} target="_blank">
+                <a href={project.url} target="_blank" rel="noreferrer">
                   Visit the site
                 </a>
               </p>

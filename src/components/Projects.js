@@ -1,30 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import SingleProject from "./SingleProject";
 import { projectData } from "../data/project-data";
 import "../styles/projects.scss";
 import Rotate from "react-reveal/Rotate";
-import Fade from "react-reveal/Fade";
 
 const Projects = () => {
-  const [visibleProject, setVisibleProject] = useState(false);
-
-  const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 100) {
-      setVisibleProject(true);
-    }
-  };
-
-  window.addEventListener("scroll", toggleVisible);
-
   return (
-    <section
-      className="projects"
-      // style={
-      //   ({ display: visibleProject ? "inline" : "none" },
-      //   { animation: visibleProject ? "projectsFadeUp 2s" : "" })
-      // }
-    >
+    <section className="projects">
       <Rotate top left>
         <div className="projects-div">
           <h1 className="projects-header">

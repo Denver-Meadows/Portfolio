@@ -1,12 +1,11 @@
-import React, { useState, useRef, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import "../styles/nav.scss";
 import "./Logo";
 import Logo from "./Logo";
 import { AppContext } from "../context";
 
 const Navbar = () => {
-  const { isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav } =
-    useContext(AppContext);
+  const { openSideNav } = useContext(AppContext);
 
   const handleClick = (id) => {
     const anchor = document.querySelector(`.${id}`);

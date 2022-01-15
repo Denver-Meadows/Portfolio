@@ -5,8 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const SideNav = () => {
   const sideNav = useRef(null);
-  const { isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav } =
-    useContext(AppContext);
+  const { isSideNavOpen, closeSideNav } = useContext(AppContext);
 
   const handleClick = (id) => {
     const anchor = document.querySelector(`.${id}`);

@@ -2,9 +2,9 @@ import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import React from "react";
-import BGvideo from "./components/BGvideo";
 import ScrollButton from "./components/ScrollButton";
 import Footer from "./components/Footer";
+// import BGvideo from "./components/BGvideo";
 
 function App() {
   return (

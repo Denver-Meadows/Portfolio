@@ -1,28 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/about.scss";
 import Rotate from "react-reveal/Rotate";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
-  const [visibleAbout, setVisibleAbout] = useState(false);
-
-  const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 100) {
-      setVisibleAbout(true);
-    }
-  };
-
-  window.addEventListener("scroll", toggleVisible);
-
   return (
-    <section
-      className="about"
-      // style={
-      //   ({ display: visibleAbout ? "inline" : "none" },
-      //   { animation: visibleAbout ? "AboutFadeUp 2s" : "" })
-      // }
-    >
+    <section className="about">
       <Rotate top right>
         <div className="about-div">
           <h1 className="about-header">

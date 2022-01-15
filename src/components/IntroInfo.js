@@ -3,8 +3,7 @@ import "../styles/intro.scss";
 import { AppContext } from "../context";
 
 const IntroInfo = () => {
-  const { isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav } =
-    useContext(AppContext);
+  const { isSideNavOpen } = useContext(AppContext);
 
   return (
     <section
