@@ -43,7 +43,7 @@ html {
 }
 @media (max-width: 30.25em) {
   html {
-    font-size: 30%;
+    font-size: 41%;
   }
 }
 @media (min-width: 112.5em) {
@@ -327,17 +327,6 @@ body {
     transform: translateX(0);
   }
 }
-
-// body {
-//   box-sizing: border-box;
-//   // Change box model so that the borders and paddings are no longer added
-//   padding: 3rem;
-// }
-// @media (max-width: 56.25em) {
-//   body {
-//     padding: 0;
-//   }
-// }
 
 $base: 0.6rem;
 .chevron {

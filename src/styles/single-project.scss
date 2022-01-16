@@ -33,6 +33,11 @@
         margin-top: 2rem;
         cursor: pointer;
 
+        a {
+          text-decoration: none;
+          color: var(--clr-font-secondary);
+        }
+
         a:visited {
           text-decoration: none;
           color: var(--clr-font-secondary);
