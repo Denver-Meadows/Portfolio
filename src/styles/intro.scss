@@ -147,13 +147,31 @@
 
 @media (max-width: 475px) {
   .page-introduction-intro {
-    margin: 40% 0;
+    margin: 20% 0;
     padding: 9rem 5rem;
+  }
+  .intro-info-1 {
+    font-size: 2.5rem;
+  }
+  .intro-info-2 {
+    font-size: 6rem;
+  }
+  .intro-info-3 {
+    font-size: 3.5rem;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .page-introduction-intro {
     margin: 10% 0;
+  }
+  .intro-info-1 {
+    font-size: 5rem;
+  }
+  .intro-info-2 {
+    font-size: 5rem;
+  }
+  .intro-info-3 {
+    font-size: 2rem;
   }
 }
