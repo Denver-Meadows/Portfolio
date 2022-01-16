@@ -1,0 +1,91 @@
+.single-project {
+  color: var(--clr-font-1);
+  margin: 7rem 10%;
+}
+
+.single-project-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  padding: 6rem 0 5rem 0;
+}
+
+.single-project-container-image {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.single-project-container-details {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6 / 9;
+  padding: 2rem 5rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.single-project-container-details h2 {
+  color: var(--clr-font-secondary);
+  margin-bottom: 3rem;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.single-project-container-details-link {
+  color: var(--clr-font-secondary);
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.single-project-container-details-link a {
+  text-decoration: none;
+  color: var(--clr-font-secondary);
+}
+
+.single-project-container-details-link a:visited {
+  text-decoration: none;
+  color: var(--clr-font-secondary);
+}
+
+@media (max-width: 1100px) {
+  .single-project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .single-project-container-details {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .single-project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .single-project-container-details {
+    padding: 2rem 1rem;
+    font-size: 2.5rem;
+  }
+  .single-project-container-details h2 {
+    font-size: 4.5rem;
+  }
+}
+/*# sourceMappingURL=single-project.css.map */

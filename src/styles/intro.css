@@ -1,0 +1,196 @@
+.page-introduction {
+  height: 100vh;
+}
+
+.page-introduction-intro {
+  height: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 10rem;
+  margin: 10% 15% 0 15%;
+  color: var(--clr-font-1);
+  font-size: 4rem;
+}
+
+.page-introduction-intro-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.page-introduction-header-content {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+  margin: 0 7%;
+}
+
+.page-introduction-header-content h1 {
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 1.25;
+  font-style: normal;
+  font-size: 6vw;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
+  margin: 3rem 0;
+  padding-top: 2.5%;
+}
+
+.page-introduction-header-content h2 {
+  font-weight: 700;
+  font-size: 1.5vw;
+  letter-spacing: 0.15em;
+}
+
+.intro-info-1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  -webkit-animation: introFadeUp 1.4s ease-in-out;
+          animation: introFadeUp 1.4s ease-in-out;
+  color: var(--clr-font-secondary);
+  padding-left: 0.5rem;
+}
+
+.intro-info-2 {
+  font-size: 7rem;
+  -webkit-animation: introFadeUp 1.5s ease-in-out;
+          animation: introFadeUp 1.5s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.intro-info-3 {
+  font-size: 3.5rem;
+  -webkit-animation: introFadeUp 1.6s ease-in-out;
+          animation: introFadeUp 1.6s ease-in-out;
+}
+
+@-webkit-keyframes introFadeUp {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  66% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes introFadeUp {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  66% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1440px) {
+  .page-introduction-intro {
+    padding: 2rem 10rem;
+    margin: 8% 10% 0 10%;
+    font-size: 4rem;
+  }
+  .intro-info-3 {
+    margin-bottom: 18rem;
+  }
+}
+
+@media (max-width: 1367) {
+  .page-introduction-intro {
+    margin: 15% 10% 0 10%;
+  }
+}
+
+@media (max-width: 1138px) {
+  .page-introduction-intro {
+    margin: 13% 8%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-introduction-intro {
+    margin: 15% 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page-introduction-intro {
+    margin: 25% 0 5% 0;
+    padding: 2rem 5rem;
+  }
+  .intro-info-2 {
+    font-size: 6rem;
+  }
+  .intro-info-3 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-introduction-intro {
+    margin: 0;
+    padding: 7rem 5rem;
+  }
+  .intro-info-1 {
+    font-size: 2.5rem;
+  }
+  .intro-info-2 {
+    font-size: 5.5rem;
+  }
+  .intro-info-3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .page-introduction-intro {
+    margin: 0;
+  }
+  .intro-info-1 {
+    font-size: 3rem;
+  }
+  .intro-info-2 {
+    font-size: 5.5rem;
+  }
+  .intro-info-3 {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=intro.css.map */

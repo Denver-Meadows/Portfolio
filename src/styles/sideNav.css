@@ -1,0 +1,84 @@
+.side-nav-modal {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  z-index: -1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transform: translate(100%);
+          transform: translate(100%);
+}
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 55%;
+  background-color: var(--clr-primary-1);
+  color: var(--clr-font-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  opacity: 1;
+  font-size: 3rem;
+}
+
+.side-nav-number {
+  color: var(--clr-font-secondary);
+  margin-right: 0.7rem;
+  font-size: 2.2rem;
+}
+
+.side-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 50rem;
+}
+
+.side-nav-list-link {
+  cursor: pointer;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 1rem 1.5rem;
+}
+
+.side-nav-list-link:hover {
+  color: var(--clr-font-secondary);
+}
+
+.show-side-nav-modal {
+  visibility: visible;
+  z-index: 10;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+.close-side-nav-btn {
+  position: fixed;
+  top: 3rem;
+  right: 5rem;
+  cursor: pointer;
+  color: var(--clr-font-secondary);
+  font-size: 5rem;
+}
+/*# sourceMappingURL=sideNav.css.map */

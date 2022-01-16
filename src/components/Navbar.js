@@ -3,9 +3,11 @@ import "../styles/nav.scss";
 import "./Logo";
 import Logo from "./Logo";
 import { AppContext } from "../context";
+import { polyfill } from "seamless-scroll-polyfill";
 
 const Navbar = () => {
   const { openSideNav } = useContext(AppContext);
+  polyfill();
 
   const handleClick = (id) => {
     const anchor = document.querySelector(`.${id}`);

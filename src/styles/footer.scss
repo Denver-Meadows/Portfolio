@@ -69,12 +69,12 @@
         color: var(--clr-font-secondary);
       }
 
-      &:hover {
-        transform: scale(0) translateY(0rem);
-      }
-
-      &:active {
-        transform: translateY(0px);
+      @media (hover: none) {
+        a,
+        a:visited {
+          text-decoration: none;
+          color: var(--clr-font-secondary);
+        }
       }
     }
 

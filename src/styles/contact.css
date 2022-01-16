@@ -1,0 +1,94 @@
+.contact {
+  text-align: center;
+  color: var(--clr-font-1);
+  margin-bottom: 25rem;
+  margin-top: 25rem;
+}
+
+.contact-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-header {
+  color: var(--clr-font-1);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.contact-greeting {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 8rem 0;
+}
+
+.contact-greeting p {
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.contact-button {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  background-color: var(--clr-primary-2);
+  color: var(--clr-font-secondary);
+  border: 1px solid var(--clr-font-secondary);
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: var(--clr-primary-1);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 0.5rem 1rem var(--clr-font-secondary);
+          box-shadow: 0 0.5rem 1rem var(--clr-font-secondary);
+}
+
+.contact-button:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 0.2rem 0.5rem var(--clr-font-secondary);
+          box-shadow: 0 0.2rem 0.5rem var(--clr-font-secondary);
+}
+
+@media (max-width: 1370px) {
+  .contact-greeting {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contact-greeting {
+    width: 40%;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact-greeting {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-greeting {
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact-greeting {
+    width: 75%;
+    font-size: 2.3rem;
+  }
+  .contact-header {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
