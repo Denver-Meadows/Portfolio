@@ -49,3 +49,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 500px) {
+  .projects-header {
+    font-size: 3rem;
+  }
+}

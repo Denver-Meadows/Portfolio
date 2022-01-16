@@ -76,12 +76,16 @@
 
 @media (max-width: 550px) {
   .contact-greeting {
-    width: 55%;
+    width: 75%;
+    font-size: 2.3rem;
+  }
+  .contact-header {
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 356px) {
-  .contact-greeting {
-    width: 60%;
-  }
-}
+// @media (max-width: 356px) {
+//   .contact-greeting {
+//     width: 60%;
+//   }
+// }
