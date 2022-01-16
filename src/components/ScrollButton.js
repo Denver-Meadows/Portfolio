@@ -3,7 +3,6 @@ import { BsArrowUp } from "react-icons/bs";
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
-  console.log(window.innerWidth);
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const handleClick = (id) => {
     const anchor = document.querySelector(`.${id}`);
-    if (id === "about") {
+    if (id === "about" && window.innerWidth > 600) {
       anchor.scrollIntoView({ behavior: "smooth", block: "center" });
     } else anchor.scrollIntoView({ behavior: "smooth", block: "start" });
   };
