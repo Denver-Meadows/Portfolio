@@ -21,9 +21,9 @@ const About = () => {
               <p>
                 Hello! My name is Denver and I love creating things that live on
                 the internet. My interest in web development started back in
-                2018 when I was first introduced to Python. At that time I was
-                using it to scrape the web, build games and other fun small
-                projects.{" "}
+                2018 when I was re-introduced to programming and Python. At that
+                time I was using it to scrape the web, build games and other fun
+                small projects.{" "}
               </p>
               <p>
                 From there I made my way to the world of web development and
@@ -34,7 +34,7 @@ const About = () => {
               <p>
                 {" "}
                 I'm currently seeking new opportunities and would love the
-                opportunity to discuss any upcoming or current project needs.
+                opportunity to discuss any upcoming projects or current needs.
               </p>
             </div>
             <div className="about-container-content-tech">
