@@ -53,28 +53,28 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
   animation: dropDown 0.7s ease-in;
 }
 
 .hamburger-0 {
-  height: 2px;
+  height: 3px;
   width: 100%;
   background-color: var(--clr-font-secondary);
   border-radius: 10px;
 }
 
 .hamburger-1 {
-  height: 2px;
+  height: 3px;
   width: 90%;
   background-color: var(--clr-font-secondary);
   border-radius: 10px;
 }
 
 .hamburger-2 {
-  height: 2px;
+  height: 3px;
   width: 80%;
   background-color: var(--clr-font-secondary);
   border-radius: 10px;

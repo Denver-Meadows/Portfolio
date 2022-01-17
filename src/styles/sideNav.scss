@@ -17,11 +17,6 @@
   height: 100vh;
   width: 55%;
   background-color: var(--clr-primary-1);
-  // background-image: linear-gradient(
-  //   to right,
-  //   var(--clr-primary-2),
-  //   var(--clr-secondary-1)
-  // );
   color: var(--clr-font-1);
   display: flex;
   justify-content: space-around;
@@ -61,7 +56,6 @@
   z-index: 10;
   transition: all 0.3s linear;
   transform: translate(0);
-  // animation: slideInFromRight 0.3s ease-in;
 }
 
 .close-side-nav-btn {
