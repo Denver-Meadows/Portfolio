@@ -51,9 +51,9 @@ const SideNav = () => {
           >
             <span className="side-nav-number">03.</span> Contact
           </li>
-          <li className="side-nav-list-link side-nav-list-link-5">
+          {/* <li className="side-nav-list-link side-nav-list-link-5">
             <span className="side-nav-number">04.</span> Resume
-          </li>
+          </li> */}
         </ul>
       </div>
     </aside>

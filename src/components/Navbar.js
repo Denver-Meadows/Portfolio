@@ -41,9 +41,9 @@ const Navbar = () => {
         >
           <span className="nav-number">03.</span> Contact
         </li>
-        <li className="nav-list-link nav-list-link-5">
+        {/* <li className="nav-list-link nav-list-link-5">
           <span className="nav-number">04.</span> Resume
-        </li>
+        </li> */}
       </ul>
       <div className="nav-toggle-btn" onClick={openSideNav}>
         <span className="hamburger-0"></span>
