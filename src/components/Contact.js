@@ -23,7 +23,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-button-container">
-          <a href="mailto:denver.meadows@yahoo.com">
+          <a href="mailto:denver@denvermeadows.co">
             <button className="contact-button">Say Hello</button>
           </a>
         </div>

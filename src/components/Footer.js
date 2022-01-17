@@ -29,7 +29,7 @@ export const Footer = () => {
             </li>
             <li>
               <a
-                href="mailto:denver.meadows@yahoo.com"
+                href="mailto:denver@denvermeadows.co"
                 style={{ color: "#73cca8" }}
               >
                 <MdOutlineEmail />
