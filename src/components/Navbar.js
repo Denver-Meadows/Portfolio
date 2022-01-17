@@ -18,7 +18,9 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <Logo />
+      <div className="nav-logo">
+        <Logo />
+      </div>
       <ul className="nav-list">
         <li
           className="nav-list-link nav-list-link-2"
