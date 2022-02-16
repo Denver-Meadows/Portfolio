@@ -1,11 +1,11 @@
 export const projectData = [
   {
-    name: "Natours",
+    name: "Stayton Engineering",
     details:
-      "Natours is a nature tours website created to showcase HTML and Sass.  This desktop-first site implements the 7-1 Sass architecture and utilizes Sass mixins, extends and functions.  Parcel was used to handle the build process and deployed with Netlify.",
+      "Created for a local electrical engineering company.  I designed and built this site with React.",
     photo:
-      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1641862609/portfolio/natours_smiqcy.jpg",
-    url: "https://natours-denver.netlify.app",
+      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1645028669/portfolio/stayton-engineering_tpu8qr.png",
+    url: "https://staytonengineering.com",
   },
   {
     name: "Inventory+",
