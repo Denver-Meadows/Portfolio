@@ -2,9 +2,9 @@ export const projectData = [
   {
     name: "Stayton Engineering",
     details:
-      "Created for a local electrical engineering company.  I designed and built this site with React.",
+      "Website that I designed and built with React for an electrical engineering company.",
     photo:
-      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1645028669/portfolio/stayton-engineering_tpu8qr.png",
+      "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1645045680/portfolio/stayton-engineering_tsb2np.png",
     url: "https://staytonengineering.com",
   },
   {
