@@ -15,4 +15,4 @@ seamless-scroll-polyfill </br>
 
 ### `Languages`
 
-Written with JavaScript and SASS.
+Written with React, JavaScript and SASS.
