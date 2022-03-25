@@ -2,7 +2,7 @@ export const projectData = [
   {
     name: "Stayton Engineering",
     details:
-      "Website that I designed and built with React for an electrical engineering company.",
+      "A static website, built with React for a local electrical engineering company.",
     photo:
       "https://res.cloudinary.com/dfsqn3oi6/image/upload/v1645045680/portfolio/stayton-engineering_tsb2np.png",
     url: "https://staytonengineering.com",
